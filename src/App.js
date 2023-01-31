@@ -1,9 +1,19 @@
 import './App.css';
 
+import React, { Routes, Route } from 'react';
+
+import Title from './components/Title';
+import Navbar from './components/Navbar';
+
 function App() {
   return (
     <div className="App">
-      <h1>Cire</h1>
+    <Navbar />
+      <Routes>
+        <Route path="/" element={<Title />} />
+        <Route path="/about" element={<Title />} />
+        <Route path="/contact" element={<Title />} />
+      </Routes>
     </div>
   );
 }
