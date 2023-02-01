@@ -5,12 +5,14 @@ import ProductList from "./ProductList";
 function Products() {
     const [products, setProducts] = useState([])
     useEffect(() => {
-        fetch("https://api.escuelajs.co/api/v1/products")
+        fetch("http://localhost:8000/products")
         .then(response => response.json())
         .then(data => {
             setProducts(data)
         })
     },[])
+
+    console.log(JSON.stringify(products))
 
     return (
         <div className="products">
@@ -20,5 +22,7 @@ function Products() {
         </div>
     )
 }
+
+// 7537155
 
 export default Products;

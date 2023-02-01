@@ -3,9 +3,13 @@ import React from "react";
 function Product({product}) {
     return (
         <div className="product" key={product.id}>
-            <img className="product-thumbnails" src={product.images[0]} alt={product.title} />
-            <p>{product.description}</p>
-            <p>${product.price}</p>
+            <div className="product-thumb">
+                <img className="product-thumbnails" src={product.image} alt={product.title} />
+            </div>
+            <div>
+                <div className="product-title">{product.title}</div>
+                <div className="product-price">${product.price}</div>
+            </div>
         </div>
     )
 }
