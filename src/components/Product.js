@@ -3,11 +3,9 @@ import React from "react";
 function Product({product}) {
     return (
         <div className="product" key={product.id}>
-            <img src={product.image} alt={product.name} />
-            <p>{product.name}</p>
+            <img className="product-thumbnails" src={product.images[0]} alt={product.title} />
+            <p>{product.description}</p>
             <p>${product.price}</p>
-            <button onClick={() => {
-            }}></button>
         </div>
     )
 }
