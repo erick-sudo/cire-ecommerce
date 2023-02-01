@@ -12,8 +12,6 @@ function Products() {
         })
     },[])
 
-    console.log(JSON.stringify(products))
-
     return (
         <div className="products">
             <h1>Products</h1>
