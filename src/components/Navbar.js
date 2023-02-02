@@ -1,22 +1,20 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
-const linkStyles = {
-  color: "blue",
-  textDecoration: "none",
-  padding: "10px",
-  fontWeight: "bolder",
-  fontSize: "1.2em"
-}
+import { TiShoppingCart } from "react-icons/ti"
 
 
-function Navbar() {
+function Navbar({cartCount}) {
     return (
-    <div className="navbar">
-        <NavLink to="/home" style={linkStyles} >Home</NavLink>
-        <NavLink to="/products" style={linkStyles} >Products</NavLink>
-        <NavLink to="/about" style={linkStyles} >About</NavLink>
-        <NavLink to="/contact" style={linkStyles} >Contact</NavLink>
+    <div className="top-bar">
+      <div className="navbar">
+          <NavLink to="/home" >Home</NavLink>
+          <NavLink to="/products" >Products</NavLink>
+          <NavLink to="/about" >About</NavLink>
+          <NavLink to="/contact" >Contact</NavLink>
+      </div>
+      <div className="cart-btn">
+        <NavLink to="/cart" ><span className="cart-size">{cartCount}</span><TiShoppingCart /></NavLink>
+      </div>
     </div>
   )
 }

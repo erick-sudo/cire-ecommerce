@@ -1,3 +1,7 @@
+:root {
+  --bgA : #7B2869;
+}
+
 .App {
   text-align: center;
 }
@@ -41,16 +45,14 @@ html {
 }
 .product-price {
   font-weight: bolder;
-  color: orangered;
+  color: var(--bgA);
 }
 .view-product-details {
-  border: solid 2px;
+  padding: 0.5em;
 }
 .product-details {
-  min-width: 500px;
-  max-width: 500px;
-
-  border: solid 1px;;
+  border-radius: 5px;
+  display: flex;
 }
 .product-description {
   padding: 0.5em;
@@ -59,9 +61,118 @@ html {
 .product-main > img {
   width: 50%;
 }
+.product-details > div {
+  width: 50%;
+}
 
 .related-products {
   min-height: 100px;
   display: flex;
   flex-wrap: wrap;
+}
+.titles {
+  padding-top: 1em;
+}
+.left {
+  min-width: 400px;
+  max-width: 500px;
+}
+.right {
+  flex-grow: 2;
+  padding: 5px;
+
+  display: flex;
+}
+.thumbnails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.thumbs {
+  width: 100px;
+  transform: scale(0.7);
+}
+.other {
+  padding: 0.5em;
+}
+.other > div {
+  color: var(--bgA);
+  font-size: 0.9em;
+}
+
+/* ----------------Cart--------------- */
+
+.add-to-cart, .remove-from-cart, .checkout-btn {
+  border: none;
+  background-color: var(--bgA);
+  font-weight: bolder;
+  padding: 0.5em 0.8em;
+  border-radius: 5px;
+  cursor: pointer;
+  white-space: nowrap;
+  color: white;
+}
+.add-to-cart:hover {
+  background-color: rgba(58, 39, 4, 0.452);
+}
+.cart {
+  min-width: 500px;
+  max-width: 500px;
+  margin: 0 1em;
+}
+.cart-products {
+  display: flex;
+  align-items: center;
+
+  border-bottom: solid 1px orange;
+}
+.cart-products:hover {
+  background-color: rgba(240, 229, 208, 0.452);
+}
+.cart-products > .product{
+  box-shadow: 0.04em 0.04em 0.2em transparent;
+}
+.middle-cart-details {
+  flex-grow: 2;
+  text-align: left;
+}
+.checkout-btn {
+  font-size: 1.2em;
+  margin: 1em auto;
+  display: block;
+}
+button:hover {
+  background-color: rgba(87, 64, 21, 0.452);
+}
+.checkout-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* -----------------Navigation bar--------------------- */
+.navbar {
+  flex-grow: 2;
+}
+.cart-size {
+  font-size: 0.4em;
+  color: orange;
+}
+.top-bar {
+  display: flex;
+  background-color: var(--bgA);
+  align-items: center;
+}
+.cart-btn {
+  font-size: 2em;
+  padding: 0;
+} 
+.top-bar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bolder;
+}
+a:hover {
+  color: orange;
 }

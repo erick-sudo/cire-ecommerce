@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-function Product({product}) {
+function Product({product, container}) {
 
     const navigate = useNavigate();
 
@@ -13,8 +13,12 @@ function Product({product}) {
                 <img className="product-thumbnails" src={product.image} alt={product.title} />
             </div>
             <div>
-                <div className="product-title">{product.title}</div>
-                <div className="product-price">${product.price}</div>
+                { container ? null :
+                    <div>
+                    <div className="product-title">{product.title}</div>
+                    <div className="product-price">${product.price}</div>
+                    </div>
+                }
             </div>
         </div>
     )
