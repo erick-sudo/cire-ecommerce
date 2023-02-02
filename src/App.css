@@ -10,9 +10,7 @@ html {
   
 }
 .products-list {
-  border: solid 1px;
-
-   display: flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center; 
 }
@@ -175,4 +173,12 @@ button:hover {
 }
 a:hover {
   color: orange;
+}
+
+/* --------------------- Filter products ---------------- */
+.filter-products {
+  display: flex;
+  justify-content: center;
+  padding: 1em 0.8em;
+  background-color: var(--bgA)
 }

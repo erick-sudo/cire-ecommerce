@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
+import { FaFilter } from "react-icons/fa";
 
-function FilterProducts({setFilterCriterion, setSearchString, search, filter}) {
+function FilterProducts({setSort, setFilterCriterion, setSearchString, search, filter}) {
 
     const [categories, setCategories] = useState([]);
+    const [sortState, setSortState] = useState(false);
 
     function handleCategoriesChange(event) {
         setFilterCriterion(event.target.value);
@@ -10,6 +12,10 @@ function FilterProducts({setFilterCriterion, setSearchString, search, filter}) {
 
     function handleSearchChange(event) {
         setSearchString(event.target.value);
+    }
+
+    function handleSortChange(event) {
+        setSort(event.target.value);
     }
 
     useEffect(() => {
@@ -20,7 +26,13 @@ function FilterProducts({setFilterCriterion, setSearchString, search, filter}) {
 
     return (
         <div className="filter-products">
+            <label>Sort By <input checked={sortState} onChange={() => setSortState(!sortState)} type="checkbox" /> </label>
+            <select name="sortby" onChange={handleSortChange} disabled={sortState}>
+                <option value="price">Price</option>
+                <option value="price">Category</option>
+            </select>
             <input value={search} onChange={handleSearchChange} type="text" placeholder="Search...." />
+            <label><FaFilter /></label>
             <select name="filter" value={filter} onChange={handleCategoriesChange}>
                 {
                     categories.map((cat, index) => <option key={index} value={cat}>{cat}</option>)
