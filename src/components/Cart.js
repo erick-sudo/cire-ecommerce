@@ -29,8 +29,9 @@ function Cart({products}) {
                 )
             })
         }
-        <div>
-            <TbSum />
+        <div className="sum-total">
+            <div><TbSum /></div>
+            <div>$ 84569</div>
         </div>
         <div className="checkout-btn-container">
             <button className="checkout-btn">CHECKOUT</button>

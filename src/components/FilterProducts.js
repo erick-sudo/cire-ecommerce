@@ -37,7 +37,6 @@ function FilterProducts({setFilterCriterion, setSearchString, search, filter, se
                     categories.map((cat, index) => <option key={index} value={cat}>{cat}</option>)
                 }
             </select>
-
         </div>
     )
 }

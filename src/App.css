@@ -185,6 +185,18 @@ button:hover {
   padding: 0.2em 0.5em;
   font-weight: bolder;
 }
+.sum-total {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: 2em;
+
+  color: rgb(143, 101, 23);
+}
+.sum-total > * {
+  margin: 0.5em;
+}
 
 /* -----------------Navigation bar--------------------- */
 .navbar {
@@ -230,6 +242,10 @@ a:hover {
   margin-top: -0.8em;
   color: var(--bgA);
   box-shadow: 0.04em 0.04em 0.4em;
+
+  position: sticky;
+  top: 3em;
+  z-index: 3;
 }
 .filter-products  input[type="text"], select {
   background-color: transparent;
@@ -240,4 +256,12 @@ a:hover {
   color: var(--bgA);
   font-weight: bolder;
   margin: 0em 0.5em;
+}
+
+/* ------------------- Home ------------------- */
+.products-by-category {
+  border: solid 1px rgba(0, 0, 0, 0.178);
+
+  display: flex;
+  flex-wrap: wrap;
 }
