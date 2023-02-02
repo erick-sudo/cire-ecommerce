@@ -1,5 +1,7 @@
 import React from "react";
 import Product from "./Product";
+import { MdOutlineAddCircle } from "react-icons/md"
+import { TbSum } from "react-icons/tb"
 
 function Cart({products}) {
 
@@ -13,12 +15,23 @@ function Cart({products}) {
                         <div className="middle-cart-details">
                             <div className="product-cart-title">{product.title}</div>
                             <div className="product-price">${product.price}</div>
+                            <hr />
+                            <div>
+                                <span>Quantity : {1} <span className="add-quantity-btn"><MdOutlineAddCircle /></span></span>
+                                <div className="total-price">
+                                    <span>Total</span>
+                                    <span className="total-value-per-product">$495879</span>
+                                </div>
+                            </div>
                         </div>
-                        <button className="remove-from-cart">Remove From Cart</button>
+                        <span className="remove-from-cart">Remove</span>
                     </div>
                 )
             })
         }
+        <div>
+            <TbSum />
+        </div>
         <div className="checkout-btn-container">
             <button className="checkout-btn">CHECKOUT</button>
             <button className="checkout-btn">Continue Shopping</button>

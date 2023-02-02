@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { FaFilter } from "react-icons/fa";
 
-function FilterProducts({setSort, setFilterCriterion, setSearchString, search, filter}) {
+function FilterProducts({setFilterCriterion, setSearchString, search, filter, setSortString, sortState, setSortState}) {
 
     const [categories, setCategories] = useState([]);
-    const [sortState, setSortState] = useState(false);
 
     function handleCategoriesChange(event) {
         setFilterCriterion(event.target.value);
@@ -15,7 +14,7 @@ function FilterProducts({setSort, setFilterCriterion, setSearchString, search, f
     }
 
     function handleSortChange(event) {
-        setSort(event.target.value);
+        setSortString(event.target.value);
     }
 
     useEffect(() => {
