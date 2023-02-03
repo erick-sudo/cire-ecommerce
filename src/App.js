@@ -14,6 +14,7 @@ import Cart from './components/Cart';
 function App() {
 
   const [cart, setCart] = useState([])
+  const [showFilterButton, setShowFilterButton] = useState(false)
 
   function addToCart(product) {
     setCart([ product, ...cart ])
@@ -27,11 +28,11 @@ function App() {
 
   return (
     <div className="App">
-    <Navbar cartCount={cart.length} />
+    <Navbar cartCount={cart.length} showFilterButton={showFilterButton} setShowFilterButton={setShowFilterButton} />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Navigate to="/" />} />
-        <Route path="/products" element={<Products />} />
+        <Route path="/products" element={<Products showFilterButton={showFilterButton} />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/cart" element={<Cart products={cart} />} />

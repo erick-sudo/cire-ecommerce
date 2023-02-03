@@ -3,7 +3,7 @@ import FilterProducts from "./FilterProducts";
 import ProductForm from "./ProductForm";
 import ProductList from "./ProductList";
 
-function Products() {
+function Products({ showFilterButton }) {
     const [products, setProducts] = useState([])
     const [search, setSearch] = useState("")
     const [filter, setFilter] = useState("")
@@ -49,7 +49,11 @@ function Products() {
 
     return (
         <div className="products">
-            <FilterProducts search={search} sortState={sortState} setSortState={setSortState} setSortString={setSortString} filter={filter} setFilterCriterion={setFilterCriterion} setSearchString={setSearchString} />
+        {
+            showFilterButton
+            ? <FilterProducts search={search} sortState={sortState} setSortState={setSortState} setSortString={setSortString} filter={filter} setFilterCriterion={setFilterCriterion} setSearchString={setSearchString} />
+            : null
+        }
             <ProductList products={sortState ? sortedProductsByCategory : filteredProductsBySearch} />
             <ProductForm />
         </div>
