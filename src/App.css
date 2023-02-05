@@ -318,33 +318,3 @@ a:hover {
 legend {
   font-weight: bolder;
 }
-.clip-text {
-  background: linear-gradient(45deg, var(--bgA), white);
-  background-clip: text;
-  color: transparent;
-
-  background-position: top left;
-  animation: glowing 2s ease-in-out;
-}
-
-@keyframes glowing {
-  50% {background-position: center;}
-}
-
-@keyframes glowing2 {
-  0% {background-image: linear-gradient(45deg, orange, yellow);}
-  100% {background-image: linear-gradient(45deg, rgb(0, 255, 200), rgb(0, 4, 255));}
-}
-
-@keyframes glowing3 {
-  0% {background-position-x: top right;}
-  50% {background-position-x: center;}
-  100% {background-position-x: left;}
-}
-
-.home-title {
-  background: linear-gradient(45deg, red, green, yellow, blue, maroon, tomato, aqua);
-  animation: glowing3 5s infinite;
-  height: 100px;
-  border: solid;
-}

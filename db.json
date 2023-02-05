@@ -1,11 +1,11 @@
 {
-    "categories": [
-        "electronics",
-        "jewelery",
-        "men's clothing",
-        "women's clothing"
-    ],
-    "products" : [
+  "categories": [
+    "electronics",
+    "jewelery",
+    "men's clothing",
+    "women's clothing"
+  ],
+  "products": [
     {
       "id": 1,
       "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
@@ -16,7 +16,18 @@
       "rating": {
         "rate": 3.9,
         "count": 120
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+      ]
     },
     {
       "id": 2,
@@ -28,7 +39,19 @@
       "rating": {
         "rate": 4.1,
         "count": 259
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+        "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+        "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+        "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+        "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+        "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+        "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+        "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+        "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+        "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+      ]
     },
     {
       "id": 3,
@@ -40,7 +63,15 @@
       "rating": {
         "rate": 4.7,
         "count": 500
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+      ]
     },
     {
       "id": 4,
@@ -52,7 +83,18 @@
       "rating": {
         "rate": 2.1,
         "count": 430
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
+      ]
     },
     {
       "id": 5,
@@ -64,7 +106,14 @@
       "rating": {
         "rate": 4.6,
         "count": 400
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg"
+      ]
     },
     {
       "id": 6,
@@ -76,7 +125,14 @@
       "rating": {
         "rate": 3.9,
         "count": 70
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg"
+      ]
     },
     {
       "id": 7,
@@ -88,7 +144,15 @@
       "rating": {
         "rate": 3,
         "count": 400
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg"
+      ]
     },
     {
       "id": 8,
@@ -100,7 +164,17 @@
       "rating": {
         "rate": 1.9,
         "count": 100
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg"
+      ]
     },
     {
       "id": 9,
@@ -112,7 +186,18 @@
       "rating": {
         "rate": 3.3,
         "count": 203
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg"
+      ]
     },
     {
       "id": 10,
@@ -124,7 +209,16 @@
       "rating": {
         "rate": 2.9,
         "count": 470
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg"
+      ]
     },
     {
       "id": 11,
@@ -136,7 +230,17 @@
       "rating": {
         "rate": 4.8,
         "count": 319
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg"
+      ]
     },
     {
       "id": 12,
@@ -148,7 +252,15 @@
       "rating": {
         "rate": 4.8,
         "count": 400
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg"
+      ]
     },
     {
       "id": 13,
@@ -160,7 +272,16 @@
       "rating": {
         "rate": 2.9,
         "count": 250
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg"
+      ]
     },
     {
       "id": 14,
@@ -172,7 +293,14 @@
       "rating": {
         "rate": 2.2,
         "count": 140
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg"
+      ]
     },
     {
       "id": 15,
@@ -184,7 +312,16 @@
       "rating": {
         "rate": 2.6,
         "count": 235
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg"
+      ]
     },
     {
       "id": 16,
@@ -196,7 +333,14 @@
       "rating": {
         "rate": 2.9,
         "count": 340
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg"
+      ]
     },
     {
       "id": 17,
@@ -208,7 +352,16 @@
       "rating": {
         "rate": 3.8,
         "count": 679
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+        "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+        "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+        "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+        "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+        "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+        "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg"
+      ]
     },
     {
       "id": 18,
@@ -220,7 +373,15 @@
       "rating": {
         "rate": 4.7,
         "count": 130
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg"
+      ]
     },
     {
       "id": 19,
@@ -232,7 +393,14 @@
       "rating": {
         "rate": 4.5,
         "count": 146
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+      ]
     },
     {
       "id": 20,
@@ -244,7 +412,16 @@
       "rating": {
         "rate": 3.6,
         "count": 145
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg"
+      ]
     },
     {
       "id": 21,
@@ -256,7 +433,15 @@
       "rating": {
         "rate": 3.9,
         "count": 120
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+      ]
     },
     {
       "id": 22,
@@ -268,7 +453,15 @@
       "rating": {
         "rate": 4.1,
         "count": 259
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+        "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+        "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+        "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+        "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+        "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+      ]
     },
     {
       "id": 23,
@@ -280,7 +473,16 @@
       "rating": {
         "rate": 4.7,
         "count": 500
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+      ]
     },
     {
       "id": 24,
@@ -292,7 +494,14 @@
       "rating": {
         "rate": 2.1,
         "count": 430
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
+      ]
     },
     {
       "id": 25,
@@ -304,7 +513,17 @@
       "rating": {
         "rate": 4.6,
         "count": 400
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg"
+      ]
     },
     {
       "id": 26,
@@ -316,7 +535,19 @@
       "rating": {
         "rate": 3.9,
         "count": 70
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg"
+      ]
     },
     {
       "id": 27,
@@ -328,7 +559,17 @@
       "rating": {
         "rate": 3,
         "count": 400
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg"
+      ]
     },
     {
       "id": 28,
@@ -340,7 +581,15 @@
       "rating": {
         "rate": 1.9,
         "count": 100
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg"
+      ]
     },
     {
       "id": 29,
@@ -352,7 +601,16 @@
       "rating": {
         "rate": 3.3,
         "count": 203
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg"
+      ]
     },
     {
       "id": 30,
@@ -364,7 +622,18 @@
       "rating": {
         "rate": 2.9,
         "count": 470
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg"
+      ]
     },
     {
       "id": 31,
@@ -376,7 +645,17 @@
       "rating": {
         "rate": 4.8,
         "count": 319
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg"
+      ]
     },
     {
       "id": 32,
@@ -388,7 +667,15 @@
       "rating": {
         "rate": 4.8,
         "count": 400
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg"
+      ]
     },
     {
       "id": 33,
@@ -400,7 +687,15 @@
       "rating": {
         "rate": 2.9,
         "count": 250
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg"
+      ]
     },
     {
       "id": 34,
@@ -412,7 +707,15 @@
       "rating": {
         "rate": 2.2,
         "count": 140
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg"
+      ]
     },
     {
       "id": 35,
@@ -424,7 +727,19 @@
       "rating": {
         "rate": 2.6,
         "count": 235
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg"
+      ]
     },
     {
       "id": 36,
@@ -436,7 +751,14 @@
       "rating": {
         "rate": 2.9,
         "count": 340
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg"
+      ]
     },
     {
       "id": 37,
@@ -448,7 +770,15 @@
       "rating": {
         "rate": 3.8,
         "count": 679
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+        "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+        "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+        "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+        "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+        "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg"
+      ]
     },
     {
       "id": 38,
@@ -460,7 +790,17 @@
       "rating": {
         "rate": 4.7,
         "count": 130
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg"
+      ]
     },
     {
       "id": 39,
@@ -472,7 +812,16 @@
       "rating": {
         "rate": 4.5,
         "count": 146
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+      ]
     },
     {
       "id": 40,
@@ -484,7 +833,16 @@
       "rating": {
         "rate": 3.6,
         "count": 145
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg"
+      ]
     },
     {
       "id": 41,
@@ -496,7 +854,17 @@
       "rating": {
         "rate": 3.9,
         "count": 120
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+      ]
     },
     {
       "id": 42,
@@ -508,7 +876,15 @@
       "rating": {
         "rate": 4.1,
         "count": 259
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+        "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+        "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+        "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+        "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+        "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+      ]
     },
     {
       "id": 43,
@@ -520,7 +896,15 @@
       "rating": {
         "rate": 4.7,
         "count": 500
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+      ]
     },
     {
       "id": 44,
@@ -532,7 +916,16 @@
       "rating": {
         "rate": 2.1,
         "count": 430
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
+      ]
     },
     {
       "id": 45,
@@ -544,7 +937,14 @@
       "rating": {
         "rate": 4.6,
         "count": 400
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg"
+      ]
     },
     {
       "id": 46,
@@ -556,7 +956,17 @@
       "rating": {
         "rate": 3.9,
         "count": 70
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg"
+      ]
     },
     {
       "id": 47,
@@ -568,7 +978,14 @@
       "rating": {
         "rate": 3,
         "count": 400
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg"
+      ]
     },
     {
       "id": 48,
@@ -580,7 +997,17 @@
       "rating": {
         "rate": 1.9,
         "count": 100
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+        "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg"
+      ]
     },
     {
       "id": 49,
@@ -592,7 +1019,14 @@
       "rating": {
         "rate": 3.3,
         "count": 203
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg"
+      ]
     },
     {
       "id": 50,
@@ -604,7 +1038,16 @@
       "rating": {
         "rate": 2.9,
         "count": 470
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg"
+      ]
     },
     {
       "id": 51,
@@ -616,7 +1059,18 @@
       "rating": {
         "rate": 4.8,
         "count": 319
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg"
+      ]
     },
     {
       "id": 52,
@@ -628,7 +1082,14 @@
       "rating": {
         "rate": 4.8,
         "count": 400
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg"
+      ]
     },
     {
       "id": 53,
@@ -640,7 +1101,19 @@
       "rating": {
         "rate": 2.9,
         "count": 250
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg"
+      ]
     },
     {
       "id": 54,
@@ -652,7 +1125,14 @@
       "rating": {
         "rate": 2.2,
         "count": 140
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+        "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg"
+      ]
     },
     {
       "id": 55,
@@ -664,7 +1144,15 @@
       "rating": {
         "rate": 2.6,
         "count": 235
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg"
+      ]
     },
     {
       "id": 56,
@@ -676,7 +1164,16 @@
       "rating": {
         "rate": 2.9,
         "count": 340
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg"
+      ]
     },
     {
       "id": 57,
@@ -688,7 +1185,16 @@
       "rating": {
         "rate": 3.8,
         "count": 679
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+        "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+        "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+        "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+        "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+        "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+        "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg"
+      ]
     },
     {
       "id": 58,
@@ -700,7 +1206,15 @@
       "rating": {
         "rate": 4.7,
         "count": 130
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+        "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg"
+      ]
     },
     {
       "id": 59,
@@ -712,7 +1226,17 @@
       "rating": {
         "rate": 4.5,
         "count": 146
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+      ]
     },
     {
       "id": 60,
@@ -724,7 +1248,14 @@
       "rating": {
         "rate": 3.6,
         "count": 145
-      }
+      },
+      "thumbnails": [
+        "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+        "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg"
+      ]
     }
   ]
 }

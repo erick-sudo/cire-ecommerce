@@ -16,7 +16,7 @@ function Home() {
     return (
         <React.Fragment>
             <div className="home-title">
-            
+                <Title />
             </div>
             <div className="products-home">
                 {
