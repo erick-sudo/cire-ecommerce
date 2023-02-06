@@ -13,11 +13,11 @@ function ViewProduct({addToCart}) {
     const [related, setRelated] = useState([])
 
     useEffect(() => {
-        fetch(`http://localhost:8000/products/${productId}`)
+        fetch(`https://transactions-bank-of-flatiron.herokuapp.com/products/${productId}`)
         .then(response => response.json())
         .then(data =>  {
             setProduct(data)
-            fetch(`http://localhost:8000/products?category=${data.category}`)
+            fetch(`https://transactions-bank-of-flatiron.herokuapp.com/products?category=${data.category}`)
             .then(response => response.json())
             .then(data => setRelated(data))
         })

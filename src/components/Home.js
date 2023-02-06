@@ -8,7 +8,7 @@ function Home() {
     const [categories, setCategories] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:8000/categories')
+        fetch('https://transactions-bank-of-flatiron.herokuapp.com/categories')
         .then(response => response.json())
         .then(cats => setCategories(cats))
     }, [])
