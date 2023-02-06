@@ -1,0 +1,45 @@
+.footer-content {
+    display: flex;
+    padding: 0.4em;
+    justify-content: space-between;
+}
+
+.socialpages {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.socialpages > span {
+    margin: 0.2em;
+    font-size: 1.8em;
+    color: olive;
+}
+span:hover {
+    color: white;
+}
+
+.garments, .brands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.garment, .brand {
+    text-align: left;
+    min-width: 200px;
+    padding: 4px;
+}
+
+.garments-wrapper, .brands-wrapper {
+    width: 42%;
+}
+
+.footer-content > div {
+    border: solid 1px rgba(128, 128, 0, 0.411);
+    border-radius: 10px;
+}
+.titles-footer {
+    background-color: olive;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}

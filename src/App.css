@@ -6,6 +6,7 @@
 }
 .App {
   text-align: center;
+  position: relative;
 }
 
 @media (orientation: landscape) {
@@ -344,4 +345,11 @@ a:hover {
 
 legend {
   font-weight: bolder;
+}
+
+.footer {
+  background-color: #2c0925;
+  border: solid 2px transparent;
+  color: white;
+  min-height: 600px;
 }
