@@ -69,7 +69,7 @@ function App() {
   }, [])
 
   return (
-    <div className="App">
+    <div className="App" id='App'>
     <Navbar cartCount={cart.length} showFilterButton={showFilterButton} setShowFilterButton={setShowFilterButton} />
       <Routes>
         <Route path="/" element={<Home />} />
