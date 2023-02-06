@@ -2,6 +2,7 @@
   --bgA : #7B2869;
   --bgB: #9D3C72;
   --bgBlackT: white;
+  --borders: #7b28694b;
 }
 .App {
   text-align: center;
@@ -24,7 +25,7 @@
     margin-top: -0.8em;
     color: var(--bgA);
     box-shadow: 0.04em 0.04em 0.4em;
-  
+
     position: sticky;
     top: 3em;
     z-index: 3;
@@ -63,12 +64,18 @@
   .filter-products > label {
     margin-top: 10px;
   }
+  .product-details {
+    flex-direction: column;
+  }
+  .right  {
+    width: 100%;
+  }
 }
 
 .products-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; 
+  justify-content: center;
 }
 .product {
   min-width: 100px;
@@ -108,13 +115,16 @@
 .product-details {
   border-radius: 5px;
   display: flex;
+  align-items: flex-start;
+  padding: 0.6em;
 }
 .product-description {
   padding: 0.5em;
-  text-align: justify;
+  text-align: center;
+
 }
-.product-main > img {
-  width: 50%;
+.main-poster > img {
+  height: 30vh;
 }
 .product-details > div {
   width: 50%;
@@ -133,23 +143,35 @@
   max-width: 500px;
 }
 .right {
-  flex-grow: 2;
   padding: 5px;
-
   display: flex;
+  border: solid 1px;
 }
 .thumbnails {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 1em;
+
+  overflow-x: scroll;
+}
+.thumbnails::-webkit-scrollbar {
+  height: 3px;
+  background-color: transparent;
+}
+.thumbnails::-webkit-scrollbar-thumb {
+  background-color: var(--bgA);
+  border-radius: 10px;
 }
 .thumbs {
-  width: 100px;
-  transform: scale(0.7);
+  height: 10vh;
+  transform: scale(1);
+  margin: 0px 5px 0px 0px;
+  padding: 2px;
 }
 .other {
   padding: 0.5em;
+  border: solid 1px;
 }
 .other > div {
   color: var(--bgA);
@@ -168,6 +190,9 @@
   white-space: nowrap;
   color: white;
 }
+.add-to-cart {
+  padding: 1em 1.5em;
+}
 .cart {
   border-right: solid 1px;
   border-left: solid 1px;
@@ -180,7 +205,7 @@
   display: block;
 }
 .add-to-cart:hover {
-  background-color: rgba(58, 39, 4, 0.452);
+  background-color: orange;
 }
 .cart-products > .product {
   background-color: transparent;
@@ -208,6 +233,8 @@
 .add-quantity-btn {
   color: var(--bgB);
   cursor: pointer;
+  margin-left: 1em;
+  font-size: 1.2em;
 }
 .add-quantity-btn:hover {
   color: rgb(22, 77, 22);
@@ -218,7 +245,7 @@
   display: block;
 }
 button:hover {
-  background-color: rgba(87, 64, 21, 0.452);
+  background-color: orange;
 }
 .checkout-btn-container {
   display: flex;
@@ -245,7 +272,7 @@ button:hover {
   font-weight: bolder;
   font-size: 2em;
 
-  color: rgb(143, 101, 23);
+  color: rgb(56, 5, 45);
 }
 .sum-total > * {
   margin: 0.5em;
@@ -272,7 +299,7 @@ button:hover {
 .cart-btn {
   font-size: 2em;
   padding: 0;
-} 
+}
 .top-bar a {
   color: white;
   text-decoration: none;

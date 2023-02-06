@@ -25,49 +25,56 @@ function ViewProduct({addToCart}) {
 
 
     return (
-        <div className="view-product-details">
-            <div className="product-details">
-                <div className="left">
-                    <h3 className="titles">{product.title}</h3>
-                    <div className="product-main">
-                        <img src={product.image} alt={product.title} />
+        <>
+        { Boolean(Object.keys(product).length) ?
+            <div className="view-product-details">
+                <div className="product-details">
+                    <div className="left">
+                        <h3 className="titles">{product.title}</h3>
+                        <div className="product-main">
+                            <div className="main-poster">
+                            <img src={product.image} alt={product.title} />
+                            </div>
+                            <div className="thumbnails">
+                            {
+                                product.thumbnails.map((thumbnail,index) => {
+                                        return <img className="thumbs" src={thumbnail} alt={product.title} key={index} />
+                                })
+                            }
+                        </div>
                         <p className="product-description">{product.description}</p>
+                        </div>
+                    </div>
+                    <div className="right">
+                    <div className="other">
+                            <b>Rating</b>
+                            <h4>{Boolean(product.rating) ? product.rating.rate : null}</h4>
+                            <div>{Boolean(product.rating) > 0 ? [0,1,2,3,4,5,6,7,8,9].map((star, index) => {
+                                if(index > product.rating.rate) {
+                                    return <TiStarOutline key={index} />
+                                } else {
+                                    return <TiStarFullOutline key={index} />
+                                }
+                            }) : null}</div>
+                            <h4>{Boolean(product.rating) ? product.rating.count : null}<br />Pieces Available</h4>
+                            <button className="add-to-cart" onClick={() => {
+                                addToCart(product)
+                                navigate("/cart")
+                            } }>Add to Cart</button>
+                    </div>
                     </div>
                 </div>
-                <div className="right">
-                   <div className="thumbnails">
-                        {
-                            [1,2,3,4].map(img => {
-                                return <img className="thumbs" src={product.image} alt={product.title} key={img} />
-                            })
-                        }
-                   </div>
-                   <div className="other">
-                        <b>Rating</b>
-                        <h4>{Boolean(product.rating) ? product.rating.rate : null}</h4>
-                        <div>{Boolean(product.rating) > 0 ? [0,1,2,3,4,5,6,7,8,9].map((star, index) => {
-                            if(index > product.rating.rate) {
-                                return <TiStarOutline key={index} />
-                            } else {
-                                return <TiStarFullOutline key={index} />
-                            }   
-                        }) : null}</div>
-                        <h4>{Boolean(product.rating) ? product.rating.count : null}<br />Pieces Available</h4>
-                        <button className="add-to-cart" onClick={() => {
-                            addToCart(product)
-                            navigate("/cart")
-                        } }>Add to Cart</button>
-                   </div>
+                <hr />
+                <div className="related-products" >
+                    {
+                        related.map(product => <Product product={product} key={product.id} />)
+                    }
                 </div>
             </div>
-            <hr />
-            <div className="related-products" >
-                {
-                    related.map(product => <Product product={product} key={product.id} />)
-                }
-            </div>
-        </div>
-    );
+        : null
+        }
+        </>
+    )
 }
 
 export default ViewProduct;

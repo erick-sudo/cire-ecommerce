@@ -1,6 +1,6 @@
 import './App.css';
 
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 import { Routes, Route, Navigate } from "react-router-dom"
 import Navbar from './components/Navbar';
@@ -17,14 +17,34 @@ function App() {
   const [showFilterButton, setShowFilterButton] = useState(false)
 
   function addToCart(product) {
-    setCart([ product, ...cart ])
+    const newCartItem = cart.find(item => item.id === product.id)
+    if(newCartItem) {
+      newCartItem.qty = newCartItem.qty+1
+      setCart(cart.map(item => {
+        if(item.id === newCartItem.id) {
+          return newCartItem
+        }
+        return item
+      }))
+    } else {
+      setCart([{...product, qty: 1}, ...cart])
+    }
   }
 
-  useEffect(() => {
-    fetch("http://localhost:8000/products?category=women's clothing")
-    .then( res => res.json())
-    .then( res => setCart(res))
-  }, [])
+  function changeQuantity(productId, incr) {
+    const newCartItem = cart.find(item => item.id === productId)
+    newCartItem.qty = incr ? newCartItem.qty + 1 : newCartItem.qty > 1 ? newCartItem.qty -1 : newCartItem.qty
+    setCart(cart.map(item => {
+      if(item.id === newCartItem.id) {
+        return newCartItem
+      }
+      return item
+    }))
+  }
+
+  function removeFromCart(product) {
+    setCart(cart.filter(item => item.id !== product.id))
+  }
 
   return (
     <div className="App">
@@ -35,7 +55,7 @@ function App() {
         <Route path="/products" element={<Products showFilterButton={showFilterButton} />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/cart" element={<Cart products={cart} />} />
+        <Route path="/cart" element={<Cart products={cart} changeQuantity={changeQuantity} removeFromCart={removeFromCart} />} />
         <Route path="/viewproduct/:productId" element={<ViewProduct addToCart={addToCart} />} />
       </Routes>
     </div>
