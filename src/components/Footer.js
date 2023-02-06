@@ -10,12 +10,6 @@ function Footer({brands, garments}) {
     return (
         <div className="footer">
             <div className="footer-content">
-                <div className="socialpages">
-                    <span><BsFacebook /></span>
-                    <span><FaInstagramSquare /></span>
-                    <span><BsTwitter /></span>
-                    <span><AiFillSlackCircle /></span>
-                </div>
                 <div className="garments-wrapper">
                     <div className="titles-footer">Garments</div>
                     <div className="garments">
@@ -35,6 +29,12 @@ function Footer({brands, garments}) {
                             })
                         }
                     </div>
+                </div>
+                <div className="socialpages">
+                    <span><BsFacebook /></span>
+                    <span><FaInstagramSquare /></span>
+                    <span><BsTwitter /></span>
+                    <span><AiFillSlackCircle /></span>
                 </div>
             </div>
             <h4>Copyright &copy; 2023</h4>

@@ -1,14 +1,40 @@
+@media (orientation: portrait) {
+    .footer-content {
+        flex-direction: column;
+    }
+    .socialpages {
+        flex-direction: row;
+        margin-top: 2em;
+    }
+    .garments-wrapper, .brands-wrapper {
+        width: 100%;
+        margin-top: 1.5em;
+    }
+}
+
+@media (orientation: landscape) {
+    .footer-content {
+        flex-direction: row;
+    }
+    .socialpages {
+        flex-direction: column;
+    }
+    .garments-wrapper, .brands-wrapper {
+        width: 42%;
+    }
+}
+
 .footer-content {
     display: flex;
     padding: 0.4em;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .socialpages {
-    width: 10%;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .socialpages > span {
     margin: 0.2em;
@@ -26,12 +52,16 @@ span:hover {
 }
 .garment, .brand {
     text-align: left;
-    min-width: 200px;
-    padding: 4px;
+    width: max-content;
+    margin: 3px;
+    padding: 2px 4px;
+    border-radius: 4px;
+
+    background-color: #5c054b;
 }
 
 .garments-wrapper, .brands-wrapper {
-    width: 42%;
+    padding: 5px;
 }
 
 .footer-content > div {
