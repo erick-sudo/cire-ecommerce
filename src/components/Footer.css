@@ -41,7 +41,7 @@
     font-size: 1.8em;
     color: olive;
 }
-span:hover {
+.footer-content span:hover {
     color: white;
 }
 
