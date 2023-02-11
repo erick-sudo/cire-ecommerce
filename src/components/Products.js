@@ -11,7 +11,7 @@ function Products({ showFilterButton }) {
     const [sortState, setSortState] = useState(false);
 
     useEffect(() => {
-        fetch("https://transactions-bank-of-flatiron.herokuapp.com/products")
+        fetch("http://localhost:8001/products")
         .then(response => response.json())
         .then(data => {
             setProducts(data)

@@ -6,7 +6,7 @@ function ProductsByCategory({category}) {
     const [ products, setProducts] = useState([])
 
     useEffect(() => {
-        fetch(`https://transactions-bank-of-flatiron.herokuapp.com/products?category=${category}`)
+        fetch(`http://localhost:8001/products?category=${category}`)
         .then(res => res.json())
         .then(res => setProducts(res))
     },[category])

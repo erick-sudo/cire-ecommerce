@@ -18,7 +18,7 @@ function FilterProducts({setFilterCriterion, setSearchString, search, filter, se
     }
 
     useEffect(() => {
-        fetch('https://transactions-bank-of-flatiron.herokuapp.com/categories')
+        fetch('http://localhost:8001/categories')
         .then(response => response.json())
         .then(cats => setCategories(cats))
     }, [])

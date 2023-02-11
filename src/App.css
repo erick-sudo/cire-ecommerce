@@ -3,6 +3,8 @@
   --bgB: #9D3C72;
   --bgBlackT: white;
   --borders: #7b28694b;
+  --dark: #2c0925;
+  --darkT: #2c0925b2;
 }
 .App {
   text-align: center;
@@ -86,11 +88,27 @@
   box-shadow: 0.04em 0.04em 0.2em black;
   border-radius: 5px;
 
+  min-height: 200px;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 5px;
   background-color: white;
+}
+.placeholder-thumb > * {
+  width: 90%;
+  height: 90%;
+  color: var(--darkT);
+}
+.placeholder-thumb {
+  box-shadow: inset 0.04em 0.04em 0.6em var(--darkT);
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
 }
 .product-thumbnails {
   width: 100%;

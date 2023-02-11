@@ -52,13 +52,13 @@ function App() {
   }
 
   function fetchBrands() {
-    fetch("https://transactions-bank-of-flatiron.herokuapp.com/brands")
+    fetch("http://localhost:8001/brands")
     .then(response => response.json())
     .then(data => setBrands(data))
   }
 
   function fetchGarments() {
-    fetch("https://transactions-bank-of-flatiron.herokuapp.com/garments")
+    fetch("http://localhost:8001/garments")
     .then(response => response.json())
     .then(data => setGarments(data))
   }
