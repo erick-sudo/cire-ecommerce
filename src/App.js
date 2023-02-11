@@ -71,17 +71,19 @@ function App() {
   return (
     <div className="App" id='App'>
     <Navbar cartCount={cart.length} showFilterButton={showFilterButton} setShowFilterButton={setShowFilterButton} />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
-        <Route path="/home" element={<Navigate to="/" />} />
-        <Route path="/products" element={<Products showFilterButton={showFilterButton} />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/cart" element={<Cart products={cart} changeQuantity={changeQuantity} removeFromCart={removeFromCart} />} />
-        <Route path="/viewproduct/:productId" element={<ViewProduct addToCart={addToCart} />} />
-      </Routes>
+      <div className='center-container'>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/home" element={<Navigate to="/" />} />
+          <Route path="/products" element={<Products showFilterButton={showFilterButton} />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/cart" element={<Cart products={cart} changeQuantity={changeQuantity} removeFromCart={removeFromCart} />} />
+          <Route path="/viewproduct/:productId" element={<ViewProduct addToCart={addToCart} />} />
+        </Routes>
+      </div>
     <Footer brands={brands} garments={garments} />
     </div>
   );

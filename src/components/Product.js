@@ -1,9 +1,7 @@
 import React, {useState, useEffect} from "react";
 import { useNavigate } from "react-router-dom";
-import { FaShopify } from "react-icons/fa"
+//import { FaShopify } from "react-icons/fa"
 import { MdShoppingBasket } from "react-icons/md"
-
-// <img className="product-thumbnails" src={product.image} alt={product.title} />
 
 function Product({product, container}) {
 

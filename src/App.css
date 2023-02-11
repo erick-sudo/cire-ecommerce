@@ -11,7 +11,10 @@
   position: relative;
   background-color: white;
 }
-
+.center-container {
+  min-height: 500px;
+  background: url("./assets/honeycomb.svg") repeat center center;
+}
 @media (orientation: landscape) {
     .cart {
     min-width: 500px;
@@ -370,5 +373,4 @@ legend {
   background-color: #2c0925;
   border: solid 2px transparent;
   color: white;
-  min-height: 600px;
 }
