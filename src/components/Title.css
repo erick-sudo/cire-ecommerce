@@ -4,10 +4,12 @@
     z-index: 4;
     width: 95%;
     margin: 0 auto;
+    background-image: linear-gradient(90deg, #35122e 40%, transparent);
+    color: white;
+    border-bottom-left-radius: 10px;
 }
 .title {
     display: flex;
-    background-color: white;
     border-radius: 10px;
 }
 .logo {
@@ -15,7 +17,6 @@
 }
 .logo > img {
     width: 100%;
-    background-color: #35122e;
     display: block;
     border-bottom-left-radius: 10px;
 }

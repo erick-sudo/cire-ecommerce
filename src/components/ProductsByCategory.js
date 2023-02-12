@@ -29,7 +29,7 @@ function ProductsByCategory({category}) {
 
     return (
         <div className="fieldsets" >
-            <div className="h2">{category ? `↻~~~~${category}~~~~↻` : "↻~~~~⏳--⏳~~~~↻"}</div>
+            <div className="h2">{category ? `↻~~~~${category}~~~~↻` : "↻~~~~--~~~~↻"}</div>
             <div className='list-wrapper'>
                 <div className='scroll-buttons-left' onClick={() => handleScroll(-110)}>
                     <FaAngleDoubleLeft />
