@@ -1,0 +1,21 @@
+.home-title{
+    position: sticky;
+    top: 2.5em;
+    z-index: 4;
+    width: 95%;
+    margin: 0 auto;
+}
+.title {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+}
+.logo {
+    width: 100px;
+}
+.logo > img {
+    width: 100%;
+    background-color: #35122e;
+    display: block;
+    border-bottom-left-radius: 10px;
+}
