@@ -5,6 +5,8 @@ import { FaInstagramSquare } from "react-icons/fa"
 import { BsTwitter } from "react-icons/bs"
 import { AiFillSlackCircle } from "react-icons/ai"
 
+import logo2 from "../assets/logo3.png"
+
 function Footer({brands, garments, b_and_c}) {
 
     return (
@@ -38,6 +40,11 @@ function Footer({brands, garments, b_and_c}) {
                 </div>
             </div>
             <h4>Copyright &copy; 2023</h4>
+            <div className="logo-bottom">
+                <div className='logo'>
+                    <img src={logo2} alt="Logo" />
+                </div>
+            </div>
         </div>
     )
 }

@@ -173,14 +173,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 10px;
+  flex-wrap: wrap;
 }
 .payment-mode {
-  width: 100px;
-  margin: 0 0.1em;
+  margin: 0.3em 0.4em;
 }
 .payment-mode > img {
-  width: 100%;
+  height: 9vh;
   display: block;
+  border-radius: 10px;
+  background-color: rgb(59, 37, 55);
 }
 .view-product-details {
   padding: 0.5em;

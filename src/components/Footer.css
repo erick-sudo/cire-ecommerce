@@ -77,3 +77,12 @@
     color: #242123 !important;
     padding: 0.2em 1.2em;
 }
+
+.footer .logo > img {
+    border-radius: 10px;
+    text-align: right;
+}
+.logo-bottom {
+    display: flex;
+    justify-content: end;
+}
