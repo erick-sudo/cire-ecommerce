@@ -22,7 +22,9 @@ function Thumb({title, url}) {
                 <div className={image ? `placeholder-thumbnail` : `placeholder-thumbnail placeholder-dark`}>
                     <MdShoppingBasket />
                 </div> :
-                <img className="thumbs" src={image} alt={title ? title : "Alt"} />
+                <div className="thumb-div">
+                    <img className="thumbs" src={image} alt={title ? title : "Alt"} />
+                </div>
             }
         </>
     )

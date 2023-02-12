@@ -2,15 +2,27 @@ import React, { useState, useEffect, useRef } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import Product from "./Product";
 import {TiStarFullOutline, TiStarOutline} from "react-icons/ti"
-import { FaAngleDoubleLeft, FaAngleDoubleRight } from 'react-icons/fa'
+import { FaAngleDoubleLeft, FaAngleDoubleRight, FaPaypal } from 'react-icons/fa'
 import {MdShoppingBasket} from "react-icons/md"
-import Thumb from "./Thumb";
+import Thumb from "./Thumb"
+
+import visa from "../assets/payment_modes/visa.svg"
+import shopify from "../assets/payment_modes/shopify.svg"
+import skrill from "../assets/payment_modes/skrill.svg"
+import western_union from "../assets/payment_modes/western_union.svg"
+import electron_visa from "../assets/payment_modes/electron_visa.svg"
+import mpesa from "../assets/payment_modes/mpesa.png"
+import paypal from "../assets/payment_modes/paypal.png"
+
+const payment_modes = [paypal, visa, mpesa, shopify, skrill, western_union, electron_visa ]
 
 function ViewProduct({addToCart}) {
 
     const navigate = useNavigate()
 
     const contRef = useRef()
+
+    const thumbsRef = useRef()
 
     const { productId } = useParams()
 
@@ -37,13 +49,21 @@ function ViewProduct({addToCart}) {
         })
     },[productId])
 
-    function handleScroll(pixels) {
+    function handleScroll(pixels, thumbsReference) {
 
-        contRef.current.scrollBy({
-            top: 0,
-            left: pixels,
-            behavior: 'smooth'
-        })
+        if(Boolean(thumbsReference)) {
+            thumbsReference.current.scrollBy({
+                top: 0,
+                left: pixels,
+                behavior: 'smooth'
+            })
+        } else {
+            contRef.current.scrollBy({
+                top: 0,
+                left: pixels,
+                behavior: 'smooth'
+            })
+        }
     }
 
     return (
@@ -62,12 +82,20 @@ function ViewProduct({addToCart}) {
                                 <img className="product-thumbnails" src={image} alt="Product Poster" />
                             }
                             </div>
-                            <div className="thumbnails">
-                            {
-                                product.thumbnails.map((thumbnail,index) => {
-                                    return <Thumb title={product.title ? product.title : " "} url={thumbnail} key={index} />
-                                })
-                            }
+                            <div className='list-wrapper'>
+                                <div className='scroll-buttons-left' onClick={() => handleScroll(-110, thumbsRef)}>
+                                    <FaAngleDoubleLeft />
+                                </div>
+                                <div className="thumbnails" ref={thumbsRef}>
+                                {
+                                    product.thumbnails.map((thumbnail,index) => {
+                                        return <Thumb title={product.title ? product.title : " "} url={thumbnail} key={index} />
+                                    })
+                                }
+                            <div className='scroll-buttons-right' onClick={() => handleScroll(110, thumbsRef)}>
+                                <FaAngleDoubleRight />
+                            </div>
+                        </div>
                         </div>
                         <p className="product-description">{product.description}</p>
                         </div>
@@ -91,6 +119,17 @@ function ViewProduct({addToCart}) {
                                 } }>Add to Cart</button>
                         </div>
                     </div>
+                </div>
+                <div className="payment-modes">
+                    {
+                        payment_modes.map((mode, index) => {
+                            return (
+                                <div className="payment-mode" key={index}>
+                                    <img src={mode} alt="Pay" />
+                                </div>
+                            )
+                        })
+                    }
                 </div>
                 <hr />
                 <div className='list-wrapper'>

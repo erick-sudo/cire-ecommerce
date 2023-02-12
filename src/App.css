@@ -5,6 +5,10 @@
   --borders: #7b28694b;
   --dark: #2c0925;
   --darkT: #2c0925;
+  --TransparentBorder: #2c092556;
+}
+* {
+  box-sizing: border-box;
 }
 .App {
   text-align: center;
@@ -163,6 +167,21 @@
   font-weight: bolder;
   color: var(--bgA);
 }
+
+/* -------------View Product----------------- */
+.payment-modes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.payment-mode {
+  width: 100px;
+  margin: 0 0.1em;
+}
+.payment-mode > img {
+  width: 100%;
+  display: block;
+}
 .view-product-details {
   padding: 0.5em;
 }
@@ -214,9 +233,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 1em;
 
   overflow-x: scroll;
+  flex-grow: 2;
+
+  border: solid 1px var(--TransparentBorder);
+  padding: 5px;
 }
 .thumbnails::-webkit-scrollbar {
   height: 3px;
@@ -227,14 +249,20 @@
   border-radius: 10px;
 }
 .thumbs {
-  height: 10vh;
-  transform: scale(1);
+  display: block;
+  height: 15vh;
+  transform: scale(0.8);
+}
+.thumb-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px var(--TransparentBorder);
   margin: 0px 5px 0px 0px;
-  padding: 2px;
 }
 .other {
   padding: 0.5em;
-  border: solid 1px;
+  border: solid 1px var(--TransparentBorder);
 }
 .other > div {
   color: var(--bgA);

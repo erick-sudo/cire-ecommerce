@@ -61,6 +61,8 @@ function Products({ showFilterButton }) {
             : null
         }
             <ProductList products={ products[0] ? ( sortState ? sortedProductsByCategory : filteredProductsByCategory ) : products } />
+            <ProductList products={ products[0] ? ( sortState ? sortedProductsByCategory : filteredProductsByCategory ) : products } />
+            <ProductList products={ products[0] ? ( sortState ? sortedProductsByCategory : filteredProductsByCategory ) : products } />
             <ProductForm />
         </div>
     )
