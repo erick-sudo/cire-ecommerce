@@ -10,31 +10,35 @@ function Product({product, container}) {
     const [image, setImage] = useState(null)
 
     useEffect(() => {
-        fetch(product.image)
-        .then(response => response.blob())
-        .then(imageBlob => {
-            const imageUrl = URL.createObjectURL(imageBlob)
-            setImage(imageUrl)
-        })
+        if(product) {
+            fetch(`http://localhost:8001/product_images${product.image}`)
+            .then(response => response.blob())
+            .then(imageBlob => {
+                const imageUrl = URL.createObjectURL(imageBlob)
+                setImage(imageUrl)
+            })
+        }
     }, [])
 
+    const class_name = image ? `product` : `product placeholder-dark`
+
     return (
-        <div className="product" key={product.id} onClick={() => {
-            navigate(`/viewproduct/${product.id}`);
+        <div className={class_name} onClick={() => {
+            navigate(`/viewproduct/${product ? product.id : "3"}`);
         }}>
             <div className="product-thumb">
                 { image == null ?
                     <div className="placeholder-thumb">
                         <MdShoppingBasket />
                     </div> :
-                    <img className="product-thumbnails" src={image} alt={product.title} />
+                    <img className="product-thumbnails" src={image} alt={product.title ? product.title : " "} />
                 }
             </div>
             <div>
                 { container ? null :
                     <div>
-                    <div className="product-title">{product.title}</div>
-                    <div className="product-price">${product.price}</div>
+                    <div className="product-title">{product ? product.title : " "}</div>
+                    <div className="product-price">${product ? product.price : "0.00"}</div>
                     </div>
                 }
             </div>

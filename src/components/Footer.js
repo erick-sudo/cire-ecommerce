@@ -5,27 +5,27 @@ import { FaInstagramSquare } from "react-icons/fa"
 import { BsTwitter } from "react-icons/bs"
 import { AiFillSlackCircle } from "react-icons/ai"
 
-function Footer({brands, garments}) {
+function Footer({brands, garments, b_and_c}) {
 
     return (
         <div className="footer">
             <div className="footer-content">
-                <div className="garments-wrapper">
+                <div className={ b_and_c ? `garments-wrapper` : `garments-wrapper` }>
                     <div className="titles-footer">Garments</div>
                     <div className="garments">
                         {
                             garments.map((garment, index) => {
-                                return <span key={index} className="garment">{garment}</span>
+                                return <span key={index} className={b_and_c ? `garment` : `garment placeholder-dark`}>{garment}</span>
                             })
                         }
                     </div>
                 </div>
-                <div className="brands-wrapper">
+                <div className={b_and_c ? `brands-wrapper` : `brands-wrapper`}>
                     <div className="titles-footer">Brands</div>
                     <div className="brands">
                         {
                             brands.map((brand, index) => {
-                                return <span key={index} className="brand">{brand}</span>
+                                return <span key={index} className={b_and_c ? `brand` : `brand placeholder-dark`}>{brand}</span>
                             })
                         }
                     </div>

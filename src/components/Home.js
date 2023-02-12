@@ -5,10 +5,10 @@ import Title from './Title';
 
 function Home() {
 
-    const [categories, setCategories] = useState([]);
+    const [categories, setCategories] = useState(new Array(15).fill(null));
 
     useEffect(() => {
-        fetch('http://localhost:8001/categories')
+        fetch('http://localhost:8001/resources/categories')
         .then(response => response.json())
         .then(cats => setCategories(cats))
     }, [])

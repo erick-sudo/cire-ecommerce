@@ -7,7 +7,7 @@
         margin-top: 2em;
     }
     .garments-wrapper, .brands-wrapper {
-        width: 100%;
+        width: 98%;
         margin-top: 1.5em;
     }
 }
@@ -72,4 +72,8 @@
     background-color: olive;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+}
+.ph {
+    color: #242123 !important;
+    padding: 0.2em 1.2em;
 }

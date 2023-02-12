@@ -20,9 +20,13 @@ code {
   color: black;
   background-color: white;
 }
-body {
-  border: solid 2pxx;
-}
 html {
   background-color: #2c0925;
+}
+html::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0px;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: #68215a;;
 }

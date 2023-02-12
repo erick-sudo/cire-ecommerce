@@ -18,7 +18,7 @@ function FilterProducts({setFilterCriterion, setSearchString, search, filter, se
     }
 
     useEffect(() => {
-        fetch('http://localhost:8001/categories')
+        fetch('http://localhost:8001/resources/categories')
         .then(response => response.json())
         .then(cats => setCategories(cats))
     }, [])

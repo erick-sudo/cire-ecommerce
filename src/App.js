@@ -12,14 +12,20 @@ import ViewProduct from './components/ViewProduct';
 import Cart from './components/Cart';
 import { Login, Signup } from './components/account/Account';
 import Footer from './components/Footer';
+import { SiBrandfolder } from "react-icons/si"
 
 function App() {
 
   const [cart, setCart] = useState([])
   const [showFilterButton, setShowFilterButton] = useState(false)
+  const [ b_and_c, setB_and_C ] = useState(false)
 
-  const [brands, setBrands] = useState([])
-  const [garments, setGarments] = useState([])
+  const brandPlaceholder = <div className="ph">
+    <SiBrandfolder />
+  </div>
+
+  const [brands, setBrands] = useState(new Array(40).fill(brandPlaceholder))
+  const [garments, setGarments] = useState(new Array(40).fill(brandPlaceholder))
 
   function addToCart(product) {
     const newCartItem = cart.find(item => item.id === product.id)
@@ -52,13 +58,13 @@ function App() {
   }
 
   function fetchBrands() {
-    fetch("http://localhost:8001/brands")
+    fetch("http://localhost:8001/resources/brands")
     .then(response => response.json())
     .then(data => setBrands(data))
   }
 
   function fetchGarments() {
-    fetch("http://localhost:8001/garments")
+    fetch("http://localhost:8001/resources/garments")
     .then(response => response.json())
     .then(data => setGarments(data))
   }
@@ -84,7 +90,7 @@ function App() {
           <Route path="/viewproduct/:productId" element={<ViewProduct addToCart={addToCart} />} />
         </Routes>
       </div>
-    <Footer brands={brands} garments={garments} />
+    <Footer brands={brands} garments={garments} b_and_c={b_and_c} />
     </div>
   );
 }

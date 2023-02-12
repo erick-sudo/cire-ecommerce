@@ -4,14 +4,14 @@ import ProductForm from "./ProductForm";
 import ProductList from "./ProductList";
 
 function Products({ showFilterButton }) {
-    const [products, setProducts] = useState([])
+    const [products, setProducts] = useState(new Array(40).fill(null))
     const [search, setSearch] = useState("")
     const [filter, setFilter] = useState("")
     const [sort, setSort] = useState("price")
     const [sortState, setSortState] = useState(false);
 
     useEffect(() => {
-        fetch("http://localhost:8001/products")
+        fetch("http://localhost:8001/resources/products")
         .then(response => response.json())
         .then(data => {
             setProducts(data)
@@ -31,10 +31,16 @@ function Products({ showFilterButton }) {
     }
 
     const filteredProductsBySearch = products.filter(product => {
+        if(product == null) {
+            return product
+        }
         return product.title.toLowerCase().includes(search.toLowerCase())
     })
 
     const filteredProductsByCategory = filteredProductsBySearch.filter(product => {
+        if(product == null) {
+            return product
+        }
         return product.category.toLowerCase().includes(filter.toLowerCase())
     })
 
@@ -54,7 +60,7 @@ function Products({ showFilterButton }) {
             ? <FilterProducts search={search} sortState={sortState} setSortState={setSortState} setSortString={setSortString} filter={filter} setFilterCriterion={setFilterCriterion} setSearchString={setSearchString} />
             : null
         }
-            <ProductList products={sortState ? sortedProductsByCategory : filteredProductsBySearch} />
+            <ProductList products={ products[0] ? ( sortState ? sortedProductsByCategory : filteredProductsByCategory ) : products } />
             <ProductForm />
         </div>
     )
