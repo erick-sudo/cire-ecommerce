@@ -4,7 +4,7 @@
 }
 
 .login-wrapper {
-    padding: 2em 0em;
+    padding: 4em 0em;
     color: olive;
     display: flex;
     align-items: center;
@@ -23,11 +23,13 @@
 }
 .login-form-div {
     border-left: solid 1px  olive;
+    display: flex;
 }
 .login-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
 }
 .input-fields {
     display: flex;

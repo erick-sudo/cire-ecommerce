@@ -378,6 +378,39 @@ button:hover {
 }
 
 /* -----------------Navigation bar--------------------- */
+.acc-wrapper {
+  border: solid 2px white;
+  position: relative;
+}
+.account-access-div {
+  color: olive;
+  position: relative;
+}
+.account-button {
+  font-size: 3em;
+  padding-top: 0.3em;
+  color: white
+}
+.account-options {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  min-width: 100px;
+  right: 0;
+  background-color: #22061c;
+  z-index: 4;
+}
+.account-options > span {
+  padding: 0.6em 2em;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.account-options > span:hover {
+  color: white;
+}
 .navbar {
   flex-grow: 2;
 }
@@ -492,7 +525,7 @@ legend {
 .scroll-buttons-right, .scroll-buttons-left {
   color: var(--bgA);
   cursor: pointer;
-  z-index: 3;
+  z-index: 2;
   font-size: 20px;
   position: absolute;
 }

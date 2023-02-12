@@ -6,7 +6,7 @@ import signup from "./signup.png"
 function Login() {
 
     function handleSubmit(event) {
-
+        event.preventDefault()
     }
 
     return (
@@ -17,7 +17,7 @@ function Login() {
                     <img src={fingerprint} alt='Login' />
                 </div>
                 <div className='login-form-div'>
-                    <form className='login-form'>
+                    <form className='login-form' onSubmit={handleSubmit}>
                         <div className='input-fields'>
                             <input type="text" placeholder='Username' />
                             <input type="password" placeholder='Password' />
