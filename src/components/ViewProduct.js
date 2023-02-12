@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import Product from "./Product";
 import {TiStarFullOutline, TiStarOutline} from "react-icons/ti"
@@ -10,9 +10,11 @@ function ViewProduct({addToCart}) {
 
     const navigate = useNavigate()
 
+    const contRef = useRef()
+
     const { productId } = useParams()
 
-    const [product, setProduct] = useState({thumbnails: new Array(7).fill("Place")})
+    const [product, setProduct] = useState({thumbnails: new Array(5).fill(null)})
     const [related, setRelated] = useState(new Array(20).fill("FILL"))
 
     const [image, setImage] = useState(null)
@@ -25,8 +27,24 @@ function ViewProduct({addToCart}) {
             fetch(`http://localhost:8001/products?category=${data.category}`)
             .then(response => response.json())
             .then(data => setRelated(data))
+
+            fetch(`http://localhost:8001/product_images${data.image}`)
+            .then(response => response.blob())
+            .then(imageBlob => {
+                const imageUrl = URL.createObjectURL(imageBlob)
+                setImage(imageUrl)
+            })
         })
     },[productId])
+
+    function handleScroll(pixels) {
+
+        contRef.current.scrollBy({
+            top: 0,
+            left: pixels,
+            behavior: 'smooth'
+        })
+    }
 
     return (
         <>
@@ -34,20 +52,20 @@ function ViewProduct({addToCart}) {
             <div className={image ? `view-product-details` : `view-product-details placeholder-dark`}>
                 <div className="product-details">
                     <div className="left">
-                        <h3 className="titles">{product.title}</h3>
+                        <h3 className="titles">{product ? product.title : ""}</h3>
                         <div className="product-main">
-                            <div className="main-poster placeholder-dark">
+                            <div className={image ? "main-poster" : "main-poster placeholder-dark"}>
                             { image == null ?
                                 <div className="placeholder-thumb">
                                     <MdShoppingBasket />
                                 </div> :
-                                <img className="product-thumbnails" src={image} alt={product.title} />
+                                <img className="product-thumbnails" src={image} alt="Product Poster" />
                             }
                             </div>
                             <div className="thumbnails">
                             {
                                 product.thumbnails.map((thumbnail,index) => {
-                                        return <Thumb title={product.title ? product.title : " "} url={thumbnail} key={index} />
+                                    return <Thumb title={product.title ? product.title : " "} url={thumbnail} key={index} />
                                 })
                             }
                         </div>
@@ -76,15 +94,15 @@ function ViewProduct({addToCart}) {
                 </div>
                 <hr />
                 <div className='list-wrapper'>
-                    <div className='scroll-buttons-left'>
+                    <div className='scroll-buttons-left' onClick={() => handleScroll(-110)}>
                         <FaAngleDoubleLeft />
                     </div>
-                    <div className="related-products" >
+                    <div className="related-products" ref={contRef} >
                     {
-                        related.map(product => <Product product={product} key={product.id} />)
+                        related.map((product, index) => <Product product={product} key={index} />)
                     }
                     </div>
-                    <div className='scroll-buttons-right'>
+                    <div className='scroll-buttons-right' onClick={() => handleScroll(110)}>
                         <FaAngleDoubleRight />
                     </div>
                 </div>

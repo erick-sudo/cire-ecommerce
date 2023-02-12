@@ -7,18 +7,20 @@ function Product({product, container}) {
 
     const navigate = useNavigate();
 
-    const [image, setImage] = useState(null)
+    const [image, setImage] = useState(product ? product.image : product)
 
     useEffect(() => {
         if(product) {
-            fetch(`http://localhost:8001/product_images${product.image}`)
-            .then(response => response.blob())
-            .then(imageBlob => {
-                const imageUrl = URL.createObjectURL(imageBlob)
-                setImage(imageUrl)
-            })
+            if(product.image) {
+                fetch(`http://localhost:8001/product_images${product.image}`)
+                .then(response => response.blob())
+                .then(imageBlob => {
+                    const imageUrl = URL.createObjectURL(imageBlob)
+                    setImage(imageUrl)
+                })
+            }
         }
-    }, [])
+    }, [product])
 
     const class_name = image ? `product` : `product placeholder-dark`
 

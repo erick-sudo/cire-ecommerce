@@ -21,7 +21,7 @@ code {
   background-color: white;
 }
 html {
-  background-color: #2c0925;
+  background: url("./assets/honeycomb.svg");
 }
 html::-webkit-scrollbar {
   background-color: transparent;

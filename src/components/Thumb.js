@@ -6,13 +6,15 @@ function Thumb({title, url}) {
     const [image, setImage] = useState(null)
 
     useEffect(() => {
-        fetch(`http://localhost:8001/product_images${url}`)
-        .then(response => response.blob())
-        .then(imageBlob => {
-            const imageUrl = URL.createObjectURL(imageBlob)
-            setImage(imageUrl)
-        })
-    }, [])
+        if(Boolean(url)) {
+            fetch(`http://localhost:8001/product_images${url}`)
+            .then(response => response.blob())
+            .then(imageBlob => {
+                const imageUrl = URL.createObjectURL(imageBlob)
+                setImage(imageUrl)
+            })
+        }
+    }, [url])
 
     return (
         <>
