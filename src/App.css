@@ -51,6 +51,9 @@
   .product-details {
     flex-direction: row;
   }
+  .payment-mode > img {
+    height: 8vh;
+  }
 }
 @media (orientation: portrait) {
   .cart {
@@ -88,6 +91,9 @@
   }
   .right  {
     border: solid 1px;
+  }
+  .payment-mode > img {
+    height: 5vh;
   }
 }
 
@@ -180,7 +186,6 @@
   margin: 0.3em 0.4em;
 }
 .payment-mode > img {
-  height: 9vh;
   display: block;
   border-radius: 10px;
   background-color: rgb(59, 37, 55);
