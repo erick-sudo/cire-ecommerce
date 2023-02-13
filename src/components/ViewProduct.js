@@ -117,6 +117,10 @@ function ViewProduct({addToCart}) {
                                     addToCart(product)
                                     navigate("/cart")
                                 } }>Add to Cart</button>
+                                <button className="buy-now" onClick={() => {
+                                    addToCart(product)
+                                    navigate("/cart")
+                                } }>Buy Now</button>
                         </div>
                     </div>
                 </div>

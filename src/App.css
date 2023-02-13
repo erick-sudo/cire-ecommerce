@@ -279,7 +279,7 @@
 
 /* ----------------Cart--------------- */
 
-.add-to-cart, .remove-from-cart, .checkout-btn {
+.add-to-cart, .remove-from-cart, .checkout-btn , .buy-now{
   border: none;
   background-color: var(--bgA);
   font-weight: bolder;
@@ -304,7 +304,7 @@
   display: block;
 }
 .add-to-cart:hover {
-  background-color: orange;
+  background-color: rgb(104, 71, 11);
 }
 .cart-products > .product {
   background-color: transparent;
@@ -344,7 +344,7 @@
   display: block;
 }
 button:hover {
-  background-color: orange;
+  background-color: rgb(104, 71, 11);
 }
 .checkout-btn-container {
   display: flex;
@@ -375,6 +375,11 @@ button:hover {
 }
 .sum-total > * {
   margin: 0.5em;
+}
+.buy-now {
+  width: 75%;
+  padding: 1.2em;
+  margin: 1.2em 0.2em;
 }
 
 /* -----------------Navigation bar--------------------- */
